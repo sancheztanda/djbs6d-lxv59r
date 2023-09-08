@@ -1,8 +1,148 @@
+* html,
+body,
+select {
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  background: white !important; }
 
+button {
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  background: white; }
 
+/* Form generals */
+.basic-select .select__control {
+  border-radius: 0; }
+.error {
+  display: block !important; }
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.active {
+  color: white !important;
+  background-color: #6db568 !important; }
+
+.btn {
+  border: 1px solid #86b128 !important; }
+
+.btn-primary {
+  border: 1px solid #86b128 !important;
+  background-color: #86b128 !important;
+  color: white !important; }
+
+.btn-secondary {
+  border: 1px solid gray !important;
+  background-color: gray !important;
+  color: white !important; }
+
+.card-header {
+  background-color: #6db568 !important;
+  color: white !important;
+  cursor: pointer; }
+
+.title-product {
+  border-bottom: 0px !important;
+  line-height: 0 !important; }
+
+.description-product {
+  margin: -2rem 0 2em !important; }
+
+.icono {
+  width: 3rem; }
+
+.btnSiguiente {
+  margin-left: 90%; }
+
+.ask-box {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column; }
+  .ask-box .ask-title {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #59ac54; }
+  .ask-box .ask-body {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #252324; }
+  .ask-box .ask-link {
+    color: #59ac54;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem; }
+
+.logoicoservicios {
+  width: 100px;
+  margin-left: 89%;
+  margin-bottom: 31px;
+  margin-top: -64px; }
+
+.inputCorto {
+  width: 60%; }
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 8px;
+  margin-left: -5px; }
+
+@media screen and (max-width: 900px) {
+  .screen-contents .details-container .content .content-title {
+    padding-bottom: 10px;
+    line-height: 3rem; }
+  .screen-contents.faqs-screen {
+    margin: 0; }
+    .screen-contents.faqs-screen .details-container {
+      margin: 2rem 2rem 10rem 2rem; } }
+
+.modalInterlineado {
+  line-height: 1.2em; }
+
+.card-no-price {
+  color: red;
+  text-decoration: line-through; }
+
+.card-servicio-limitado {
+  color: #6db568;
+  font-size: 1.2rem; }
+
+.form-check-div {
+  display: inline-block;
+  margin: 10px;
+  padding-left: 33px;
+  margin-left: 0px;
+  border: 2px solid #666;
+  border-radius: 8px; }
+
+.form-check-accept {
+  display: inline-block;
+  margin: 10px; }
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #666;
+  border-radius: 2px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  top: 5px; }
+
+input[type="checkbox"]:checked::before {
+  content: "\2714";
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: 2px;
+  font-size: 22px;
+  color: #666; }
